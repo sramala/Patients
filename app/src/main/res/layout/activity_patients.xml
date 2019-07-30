@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/patientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextBp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Blood Pressure"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextSugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Diabetic"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextBlood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Haemoglobin"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date Of Birth"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editTextDot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date of Test"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/updateDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update  Details" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/detailView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

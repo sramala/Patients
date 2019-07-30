@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PatientName:Smilee"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textViewBloodPressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BloodPressure:130"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewDiabetic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diabetic:No"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewHaemoglobin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Haemoglobin:15"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DateOfBirth:12-03-1995"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewDateOfTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TestDate:7/22/2019"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
